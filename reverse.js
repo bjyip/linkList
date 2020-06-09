@@ -1,6 +1,5 @@
 var LinkList = require('./linkList').LinkList
 var linkList = new LinkList();
-var linkList = new LinkList();
 linkList.appendBatch([1, 2, 3, 4, 5])
 
 // 双指针

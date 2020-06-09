@@ -12,6 +12,15 @@
         "<node_internals>/**"
       ],
       "program": "${workspaceRoot}/reverse.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "swapPairs",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceRoot}/swapPairs.js"
     }
   ]
 }
