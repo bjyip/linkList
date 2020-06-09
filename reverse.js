@@ -1,10 +1,7 @@
 var LinkList = require('./linkList').LinkList
 var linkList = new LinkList();
 var linkList = new LinkList();
-linkList.append(1)
-linkList.append(2)
-linkList.append(3)
-linkList.append(4)
+linkList.appendBatch([1, 2, 3, 4, 5])
 
 var reverseList = function(head) {
   if (!head) {
